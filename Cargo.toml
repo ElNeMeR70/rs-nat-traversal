@@ -1,0 +1,13 @@
+[package]
+name = "rs-nat-traversal"
+version = "1.0.0"
+edition = "2021"
+description = "NAT traversal with STUN hole punching simulation"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-nat-traversal"
+keywords = ["rust", "nat", "stun", "networking", "p2p"]
+
+[[bin]]
+name = "rs_nat_traversal"
+path = "main.rs"
